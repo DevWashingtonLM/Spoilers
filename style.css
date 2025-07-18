@@ -4,7 +4,7 @@
 
 }
 body.home{
-    background-image: url(/images/fundo6.jpg);
+    background-image: url(/images/fundo.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -13,7 +13,7 @@ body.home{
     
 }
 body.demon{
-    background-image: url(/images/fundoDemon.png);
+    background-image: url(/images/fundod.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -102,13 +102,17 @@ a:visited{
 }
 body.black{
     background-image: url(images/fundoBlack.jpg);
+    background-repeat: repeat;
+    
 }
 body.solo{
     background-image: url(images/fundoSolo.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 body.frieren{
     background-image: url(images/fundoFrieren.jpeg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
