@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Pokemonsolid';
+    src: url('fonts/PokemonSolidNormal-xyWR.ttf') format(truetype);
+
+}
+body.home{
+    background-image: url(/images/fundo6.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    
+    
+}
+body.demon{
+    background-image: url(/images/fundoDemon.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    
+}
+.fontText{
+    font-family: 'Pokemonsolid', sans-serif;
+}
+
+
+.anime-text{
+    font-family: 'Pokemonsolid', sans-serif;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+
+    
+    
+}
+h1 {
+    
+    
+    text-align: center;
+    font-size: 70px;
+    opacity: 100%;
+    color: #000000;
+    -webkit-text-stroke: #ffffff;
+    -webkit-text-stroke-width: 1px;
+}
+h2 {
+    
+    text-align: center;
+    font-size: 33px;
+    color: rgb(3, 3, 3);
+    -webkit-text-stroke: #ffffff;
+    -webkit-text-stroke-width: 0.1px;
+}
+p{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    color: #0c0c0c;
+    font-family: 'Pokemonsolid', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    
+}
+ul{
+    font-size: 30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-family: 'Pokemonsolid', sans-serif;
+    text-align: left;
+    color: #ffffff;
+}
+.image-container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+
+.text-overlay {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-size: 25px;
+    position: absolute;
+    top: 107%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    z-index: 2;
+    -webkit-text-stroke: #000000;
+    -webkit-text-stroke-width: 1px;
+}
+
+a:link{
+    color:rgb(0, 0, 0);
+}
+a:visited{
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: #020202;
+    -webkit-text-stroke-width: 1px;
+}
+body.black{
+    background-image: url(images/fundoBlack.jpg);
+}
+body.solo{
+    background-image: url(images/fundoSolo.jpg);
+    background-size: cover;
+}
+body.frieren{
+    background-image: url(images/fundoFrieren.jpeg);
+    background-size: cover;
+}
+
