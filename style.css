@@ -17,12 +17,6 @@ body.demon {
     background-position: center;
     background-size: cover;
 }
-body.black {
-    background-image: url(./images/black2.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
 body.solo {
     background-image: url(./images/fundoSolo.jpg);
     background-size: cover;
@@ -33,9 +27,16 @@ body.frieren {
     background-size: cover;
 
 }
+body.black{
+    background-image: url(./images/black2.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
 
 
-.fontText, .anime-text, p {
+.fontText, .anime-text, p , .col-12{
     font-family: 'Pokemonsolid', sans-serif;
     padding: 0 10px;
     word-wrap: break-word;
@@ -79,18 +80,14 @@ ul {
     height: auto;
     margin: 0 auto;
 }
-.text-overlay {
+.col-12{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(0, 0, 0);
-    font-size: 25px;
-    position: absolute;
-    top: 107%;
-    left: 68%;
-    transform: translate(-50%, -50%);
+    font-size: 26px;
     color: rgb(0, 0, 0);
     padding: 10px;
     z-index: 2;
-    -webkit-text-stroke: #000000;
+    -webkit-text-stroke: #7e7c7c;
     -webkit-text-stroke-width: 1px;
 }
 .text-overlay2 {
@@ -104,8 +101,11 @@ ul {
     color: rgb(0, 0, 0);
     padding: 10px;
     z-index: 2;
-    -webkit-text-stroke: #ff0000;
+    -webkit-text-stroke: #ffffff;
     -webkit-text-stroke-width: 1px;
+}
+.black-text{
+    font-size: 22px;
 }
 
 
@@ -119,47 +119,12 @@ a:visited {
     -webkit-text-stroke-width: 1px;
 }
 
-
-@media (max-width: 768px) {
-    body {
-        background-attachment: scroll;
-    }
-    .img-desktop{
-        display: none;
-    }
-    h1 {
-        font-size: 10vw;
-    }
-
-    h2, p, ul {
-        font-size: 5vw;
-    }
-
-    
-
-    .text-overlay {
-        width: 90%;
-        font-size: 4vw;
-        top: 75%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        white-space: normal;
-    }
-    .text-overlay2 {
-        width: 90%;
-        font-size: 5vw;
-        top: 57%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        white-space: normal;
-        color: white;
-    }
-    body.black {
-        background-image: url(./images/fundoBlack.jpg);
-        background-repeat: no-repeat;
-        background-size: auto;
+@media (min-width: 992px) {
+    .black-text {
+        font-size: 24px;
         
+    }
+    .demon-text{
+        font-size: 30px;
     }
 }
