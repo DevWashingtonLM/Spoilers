@@ -3,7 +3,6 @@
     src: url('fonts/PokemonSolidNormal-xyWR.ttf') format(truetype);
 }
 
-
 body.home {
     background-image: url(./images/fundo.jpg);
     background-repeat: no-repeat;
@@ -19,8 +18,10 @@ body.demon {
     background-size: cover;
 }
 body.black {
-    background-image: url(./images/fundoBlack.jpg);
-    background-repeat: repeat;
+    background-image: url(./images/black2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 body.solo {
     background-image: url(./images/fundoSolo.jpg);
@@ -92,6 +93,21 @@ ul {
     -webkit-text-stroke: #000000;
     -webkit-text-stroke-width: 1px;
 }
+.text-overlay2 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-size: 25px;
+    position: absolute;
+    top: 71%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    z-index: 2;
+    -webkit-text-stroke: #ff0000;
+    -webkit-text-stroke-width: 1px;
+}
+
 
 
 a:link {
@@ -108,7 +124,9 @@ a:visited {
     body {
         background-attachment: scroll;
     }
-
+    .img-desktop{
+        display: none;
+    }
     h1 {
         font-size: 10vw;
     }
@@ -117,18 +135,31 @@ a:visited {
         font-size: 5vw;
     }
 
-    .image-container {
-        width: 20%;
-        height: auto;
-    }
+    
 
     .text-overlay {
         width: 90%;
         font-size: 4vw;
-        top: 100%;
+        top: 75%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
         white-space: normal;
+    }
+    .text-overlay2 {
+        width: 90%;
+        font-size: 5vw;
+        top: 57%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        white-space: normal;
+        color: white;
+    }
+    body.black {
+        background-image: url(./images/fundoBlack.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        
     }
 }
