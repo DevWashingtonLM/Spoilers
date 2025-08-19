@@ -2,6 +2,7 @@
     font-family: 'Pokemonsolid';
     src: url('fonts/PokemonSolidNormal-xyWR.ttf') format(truetype);
 }
+
 .esquerda {
     text-align: left;
     font-size: 20px;
@@ -15,6 +16,11 @@ html, body {
     margin: 0;
 }
 header{
+    font-family: 'Pokemonsolid', sans-serif;
+    padding: 0 10px;
+    word-wrap: break-word;
+}
+p .trailer{
     font-family: 'Pokemonsolid', sans-serif;
     padding: 0 10px;
     word-wrap: break-word;
@@ -167,4 +173,7 @@ main p{
     margin: 0 auto;
     text-align: justify;
     line-height: 1.6;
+}
+.video{
+    background-color: #000000;
 }
