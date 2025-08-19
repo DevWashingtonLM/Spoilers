@@ -141,6 +141,7 @@ main p{
     border-radius: 15px;
 }
 .unitaria p {
+
     font-size: 10px;
     font-family:'Times New Roman', Times, serif;
     color: #000000;
@@ -161,4 +162,7 @@ main p{
     
 
 }
-
+.sinopse{
+    margin-left: 5px;
+    margin-right: 5px;
+}
