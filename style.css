@@ -162,7 +162,9 @@ main p{
     
 
 }
-.sinopse{
-    margin-left: 5%;
-    margin-right: 5%;
+.sinopse {
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 1.6;
 }
