@@ -4,35 +4,39 @@
     <main>
       <section>
         <h1>Otaku Em Minutos</h1>
-        <p>Os Maiores Spoilers dos Melhores Animes Você Só Encontra Aqui!</p><br><br><br>
-        <p>EM ALTA</p>
-  
-        <div class="swiper">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide"><a href="./black.html" target="_blank"><img src="./images/capa-black.jpg" alt=""></a></div>
-            <div class="swiper-slide"><a href="./frieren.html" target="_blank"><img src="./images/capa-frieren.png" alt=""></a></div>
-            <div class="swiper-slide"><a href="./solo.html" target="_blank"><img src="./images/capa-solo.jpg" alt=""></a></div>
-            <div class="swiper-slide"><a href="./demon.html" target="_blank"><img src="./images/capa-demon.jpg" alt=""></a></div>
-          </div>
-  
-          <!-- If we need pagination -->
-          <div class="swiper-pagination"></div>
-          <!-- If we need navigation buttons -->
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-          <!-- If we need scrollbar -->
-          <div class="swiper-scrollbar"></div>
-        </div>
+        <p class="fs-3 fs-md-2 fs-lg-1">Os Maiores Spoilers dos Melhores Animes Você Só Encontra Aqui!</p><br><br><br>
+        <p class="fs-3 fs-md-2 fs-lg-1">EM ALTA</p>
+        
+      
       </section>
     </main>
-  
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><a href="frieren.html">
+          <img src="./images/capa-frieren.png" />
+        </a>
+        </div>
+        <div class="swiper-slide"><a href="solo.html">
+          <img src="./images/capa-solo.jpg" />
+        </a>
+        </div>
+        <div class="swiper-slide"><a href="demon.html">
+          <img src="./images/capa-demon.jpg" />
+        </a>
+        </div>
+        <div class="swiper-slide"><a href="black.html">
+          <img src="./images/capa-black.jpg" />
+        </a>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
     <!-- JS do Swiper -->
+     <script src="script.js"></script>
     <script src="swiper.js"></script>
     <script src="footer.js"></script>
     <script>
         document.title = "Spoilers";
       </script>
   </div>
-  
+

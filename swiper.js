@@ -1,24 +1,19 @@
-const swiper = new Swiper('.swiper', {
-    slidesPerView: 5,
-    spaceBetween: 15,
+ var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 2,
+    spaceBetween: 20,
     loop: true,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
     },
-    breakpoints: {
-      320: {
-        slidesPerView: 2,
-        spaceBetween: 10,
-      },
-      768: {
-        slidesPerView: 3,
-        spaceBetween: 15,
-      },
-      1024: {
-        slidesPerView: 5,
-        spaceBetween: 20,
-      },
-    }
+    pagination: {
+      el: ".swiper-pagination",
+    },
   });
-  
+

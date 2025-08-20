@@ -3,13 +3,14 @@
     src: url('fonts/PokemonSolidNormal-xyWR.ttf') format(truetype);
 }
 
-.esquerda {
+.esquerda{
     text-align: left;
-    font-size: 20px;
+   
     margin-left: 10px;
     font-family:'Times New Roman', Times, serif;
     
 }
+
 /*pagina home*/
 html, body {
     height: 100%;
@@ -74,7 +75,6 @@ main {
 }
 main p{
     padding-top: 5%;
-    font-size: 20px;
 }
 
 .copy{
@@ -112,43 +112,49 @@ main p{
     margin: 50px auto; /* centraliza horizontalmente e dá espaço acima/baixo */
     padding: 30px 0; /* espaço interno */
 }
+.swiper {
+    width: 100%;
+    max-width: 600px; /*computador*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .swiper-slide {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
 .swiper-slide img {
-  width: 150px;
-  height: 220px;
-  object-fit: cover;
-  border-radius: 8px;
-  transition: transform 1s;
-  cursor: pointer;
-}
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 
-.swiper-slide img:hover {
-  transform: scale(1.05);
+    
 }
 .capa-2{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    display: block;   
+    display: block;
     margin-bottom: 0;
     }
 .capa-2 img{
-
+    padding: 0 20px;
     margin-top: 5%;
-    width: 340px;
-    height: 200px;
+    width:100%;
+    height: auto;
     border-radius: 15px;
+
 }
 .unitaria p {
 
-    font-size: 10px;
+   
     font-family:'Times New Roman', Times, serif;
     color: #000000;
     -webkit-text-stroke-color: #000000;
@@ -158,13 +164,14 @@ main p{
     background-color: #f7f7f7;
     border-radius: 15px;       /* bordas arredondadas */
     margin: 10px;
-    font-size: 10px;
+    
     -webkit-text-stroke-color: #000000;
     -webkit-text-stroke-width: 0.5px;
     color: rgb(0, 0, 0);
 }
 .unitaria .estrelas{
     color: rgb(255, 255, 0);
+    
     
 
 }
@@ -174,6 +181,10 @@ main p{
     text-align: justify;
     line-height: 1.6;
 }
-.video{
-    background-color: #000000;
-}
+.video {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    aspect-ratio: 16/9;
+    background-color: #000;
+    border-radius: 15px;}
