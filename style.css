@@ -188,3 +188,24 @@ main p{
     aspect-ratio: 16/9;
     background-color: #000;
     border-radius: 15px;}
+.sobre{
+    background-image: url(./images/sobre.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.sobre p{
+    width:90%;
+    margin: auto;
+    text-align: center;
+}
+i{
+    font-size: 35px;
+    color: #000;
+    margin: 50px;
+}
+.siga-me{
+    font-size: 36px;
+    color: rgb(255, 0, 0);
+}

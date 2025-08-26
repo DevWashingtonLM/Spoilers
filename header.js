@@ -3,6 +3,7 @@ document.write(`
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+<script src="https://kit.fontawesome.com/e55de86a63.js" crossorigin="anonymous"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -25,9 +26,9 @@ document.write(`
                 </a>
             </figure>
             
-                <a href="">Últimos Spoilers</a>
+                <a href="./index.html">Home</a>
                 <a href="https://www.linkedin.com/in/washington-medeiros-4b48512b8">Contato</a>
-                <a href="">Sobre</a>
+                <a href="./sobre.html">Sobre</a>
                 
             
         </nav>
