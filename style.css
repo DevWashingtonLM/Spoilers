@@ -212,3 +212,15 @@ i{
 .autoplay{
     align-items: center;
 }
+button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  button:hover {
+    background-color: #666;
+  }
